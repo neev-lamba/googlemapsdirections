@@ -43,7 +43,7 @@ function MapComponent({ center, destination, currentLocation, directions }) {
 
 function App() {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyCmOTjINZeQhFIac0EA7ToqvNQxAL_gfKM",
+    googleMapsApiKey: "API_KEY",
     libraries: libraries,
   });
 
